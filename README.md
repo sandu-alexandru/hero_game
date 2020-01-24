@@ -1,6 +1,21 @@
 # Game Hero
 The project developed covers a story game based on turn based combat, where the game hero encounters a wild beast in the forest. Game character's stats are taken into consideration on each turn, whilst the game herop also possesses some additional skills to help him in battle.
 
+## Installing and playing the game
+
+##### Installation (standard package using PyPi)
+`pip install game_hero`
+
+##### Playing the game
+
+```
+# Importing the game
+from game_hero.main_game import HeroGame
+
+# Starting the actual fight simulation between the Hero and the Beast
+HeroGame().start_game()
+```
+
 ### The story 
 Once upon a time there was a great hero, called Orderus, with some strengths and weaknesses, as all heroes have. 
 After battling all kinds of monsters for more than a hundred years, Orderus now has the following stats: 
