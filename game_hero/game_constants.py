@@ -1,3 +1,6 @@
+"""
+Constants used thorought the game.
+"""
 
 TOTAL_FIGHT_ROUNDS = 20
 
